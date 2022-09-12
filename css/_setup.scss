@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+button{
+    cursor: pointer;
+}
+
+//media size
+$mobileSize : 375px;
+$desktopSize : 1440px;
+
+// colors
+$primaryColor : hsl(322, 100%, 66%);
+$cyanLight : hsl(193, 100%, 96%);
+$cyanDark : hsl(192, 100%, 9%);
+$blue : hsl(208, 11%, 55%);
+
+//typographie
+$fontSize : 18px;
+
+//headings
+$headingFontFamily : 'Poppins';
+$fontWeight600 : 600;
+
+//body
+$fontWeight400 : 400;
+$fontWeight700 : 700;

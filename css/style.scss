@@ -1,0 +1,11 @@
+@import './setup';
+
+@import './desktop/header';
+@import './desktop/desktopContainer';
+@import './desktop/footer';
+
+@media (max-width : $desktopSize) {
+    @import './desktop/header'; 
+    @import './desktop/desktopContainer';
+    @import './desktop/footer';
+}
